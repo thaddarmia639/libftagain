@@ -6,7 +6,7 @@
 /*   By: thsi <thsi@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/05 18:14:51 by thsi              #+#    #+#             */
-/*   Updated: 2026/09/05 18:15:11 by thsi             ###   ########.fr       */
+/*   Updated: 2026/10/20 20:39:56 by thsi             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	*ft_memset(void *b, int c, size_t len)
 
 	ptr = (unsigned char *)b;
 	i = 0;
-	while (i < len)
+	while (len--)
 	{
 		ptr[i] = (unsigned char)c;
 		i++;
